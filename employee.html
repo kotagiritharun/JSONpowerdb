@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.Bootstrap 3 form in w3 schools.
+-->
+<html lang="en">
+    <head>
+        <title>Employee from using JPDB</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="container">
+            <h2>Employee form using JPDB API</h2>
+            <form id="empForm" method="post">
+                <div class="form-group">
+                    <span><label>Employee ID:</label> <label id="empIdMsg">
+                        </label></span>
+                    <input type="text" class="form-control" onchange = "getempid()" name="empId" id="empId"
+                           placeholder="Enter Employee ID" required>
+                </div>
+                <div class="form-group">
+                    <label>Employee Name:</label>
+                    <input type="text" class="form-control" id="empName"
+                           placeholder="Enter Employee Name" name="empName">
+                </div>
+                <div class="form-group">
+                    <label>Basic Salary:</label>
+                    <input type="number" class="form-control" id="empsalBS"
+                           placeholder="Basic Salary" name="empsalBS">
+                </div>
+                <div class="form-group">
+                    <label>HRA:</label>
+                    <input type="number" class="form-control" id="empsalHRA"
+                           placeholder="HRA" name="empsalHRA">
+                </div>
+                <div class="form-group">
+                    <label>DA:</label>
+                    <input type="number" class="form-control" id="empsalDA"
+                           placeholder="DA" name="empsalDA">
+                </div>
+                <div class="form-group">
+                    <label>Deduction:</label>
+                    <input type="number" class="form-control" id="empsalD"
+                           placeholder="Deduction" name="empsalDA>
+                           </div>
+                <div class ="form-group text-center">
+   
+                    <input type="button" class="btn btn-primary" id="empSave" value="Save"
+                      onclick="saveData();">
+                    <input type="button" class="btn btn-primary" id="empChange" value="change"
+                      onclick="changeData();">
+                    <input type="button" class="btn btn-primary" id="empReset" value="reset"
+                      onclick="resetForm();">
+ 
+                </div>
+            </form>
+        </div>
+     <script type = "text/javascript" src= "https://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+     <script type = "text/javascript" src="js/index.js"></script>
+ </body>
+</html>
