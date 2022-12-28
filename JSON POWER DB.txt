@@ -1,0 +1,114 @@
+JSON POWERDB GERNERATED TOKEN. -- Generate connection token in tools tab.
+
+90938290|-31949273866143397|90952239.
+
+Install talend api tester extension in chrome.
+
+Introduction to JSON POWERDB and its features.
+
+1. Javascript Object Notation is fastest growing in these years and it is slowly becoming the de-facto standard for data and communication.
+2. JSON is a fastest growing trend because of its technology, cost and speed. 
+3. If a query runs 10 times faster on a new technology platform. Theoretically It reduces the cost of infrastructure by 10 times and pratically 7 to 9 times or more of cost saving.
+
+JSON POWERDB FEATURES:
+1. It is Nimble, simple to use, in memory and real time.
+2. It is schema free so that's why it is easy to maintain.
+3. It is a server less support so it has fast development so the time is taken less.
+4. It enables multi-mode database where it helps to get one solution for variety of data.
+5. Builds around world's largest indexing engine PowerIndex.
+6. It has feature called webservices API which makes cost efficent in development.
+7. It contains single instance with million indexes.
+8. JSON has inbuilt support for querying multiple database.
+9. It has multiple security layers and makes sure that system is encrypted.
+10. Server side native no sql gives us the best performance.
+
+Competitive: 
+There are different types of databases like document database(MongoDB), key value database(Redis), RDBMS(MySql), Geospatial(Redis), Time series Database(Influx), wide column rows(HBase).
+but JSON PowerDB supports all of these types instead of supporting only one.
+
+Usecase of JSON PowerDB:
+1. It has features where other databases has.
+2. It is use for any software application that needs the backend databases like dynamic webpages, Mobile or Desktop apps.
+3. Best suited for real time applications for data analytics.
+4. Improves existance application analytics performance.
+5. Live working with HTML templates.
+
+why should we prefer JSON PowerDB instead of using other Databases.
+
+It has minimum development cost, Minimum time to market, Minimize the complexity of interoperability between different applications, Maximize the data processing performance.
+It fills the gap from database to bigdata, Pluggable with new algorthims and user defined API'S, Minimize the total cost of ownership.
+
+HTTP REQUEUSTS METHODS:
+PUT,POST,GET,DELETE,HEAD,OPTIONS,PATCH.
+
+Response Headers in JPDB :
+
+One or more of the following information may be returned in the response, all of which give time in milliseconds unit. All information will be returned with IML, IRL, IDL, ISL APIs.
+serverTime - Time between receiving request and returning response by JsonPowerDB Server.
+reqResTime - Time taken to convert request to reponse by the API (not in the KVP API). It's the combination of parseTime and execTime.
+parseTime -Time taken to parse and validate the request.
+execTime - Actual time of executing the validated request.
+
+JPDB IML(Index Manipulation Language) - To insert, update and delete the JSON data.
+PUT COMMAND CREATING(INSERTING) A RECORD
+
+1. PUT is an IML type of API.
+In PUT we can see syntax, req,resp. 
+In request: It has parameters like Token,cmd,dbname,rel,jsonStr.
+In syntax:
+          <..> - for user specified value.
+          <<...>> - Optional parameter may take default value if not used.
+
+Points to be mention for PUT usage:
+
+In talend api tester copy the base url with combined with end url and add body with code of request present in help on jsonpowerdb.
+In JsonStr we can add users data paste the request code in body section of talend api tester.
+Open the JSON PowerDB and click on visualize click on JSONDB and enter dbname and relation to check the data.
+The user can insert multiple data the change must be done in talend api tester body under JsonStr.
+
+
+JPDB IRL(Index Retrieval language) - to retrieve JSON data.
+
+GET command:
+GET comes under the IRS type of API.
+Same steps to be followed in GET also as same as in PUT.
+Instead of IML here we use IRL. 
+In JSON string entered details will be retrieved and displayed if true else it show message as data not found.
+
+UPDATE command:
+UPDATE is an IML type of API.
+Here, In JsonStr we have to give <recordno>:{<columnname>:<field>}
+Example: "1":{"name":"tharun"},
+         "2":{"DOB":"25-12-2002"}
+
+REMOVE command:
+REMOVE is an IML type of API.
+Here, Remove JsonStr directly write the  "record":<recordnumber> | ["recno1","recno2"]>
+
+                                               AJAX CONCEPTS
+
+There is a pdf file which has about the AJAX.
+
+HTTP REQUESTS AND XMLHTTP REQUESTS DIFFERENCE:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
